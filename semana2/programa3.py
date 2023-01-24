@@ -6,8 +6,8 @@
 """
 
 
-numero1 = 10
-numero2 = 5
+numero1 = 12
+numero2 = 3
 
 
 print("{} + {} = {}".format(numero1, numero2, numero1 + numero2))
