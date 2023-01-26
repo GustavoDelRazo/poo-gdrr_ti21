@@ -6,11 +6,12 @@
 """
 
 
-numero1 = 12
-numero2 = 3
+numero1 = 12 #Variable de tipo int
+numero2 = 3  #Variable de tipo int
 
 
-print("{} + {} = {}".format(numero1, numero2, numero1 + numero2))
-print("{} = {} * {}".format(numero1 * numero2, numero1, numero2))
-print("El resultado de dividir {} / {} = {}".format(numero1, numero2, numero1 / numero2))
+print("{} + {} = {}".format(numero1, numero2, numero1 + numero2)) # Permite imprimir valores sin importar el tipo de dato
+print("{} = {} * {}".format(numero1 * numero2, numero1, numero2)) # Permite imprimir valores sin importar el tipo de dato
+print("El resultado de dividir {} / {} = {}".format(numero1, numero2, numero1 / numero2)) # Permite imprimir valores sin importar el tipo de dato
+
 
