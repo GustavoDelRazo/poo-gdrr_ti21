@@ -5,15 +5,15 @@
    Descripcion: Comentarios multilinea, variables con input y prints
 """
 
-
+PI = 3.1416
 radio = float(input("Ingresa el radio del circulo: ")) #Asigna el valor de la variable radio
 
-perimetro = (radio) * (2) * (3.1416) # Hace la operacion de la variable radio por pi y 2
-area = (3.1416) * (radio) ** (2) #Hace la operacion de la variable radio por pi
+perimetro = (radio) * (2) * (PI) # Hace la operacion de la variable radio por pi y 2
+area = (PI) * (radio) ** (2) #Hace la operacion de la variable radio por pi
 
 print("El area de un criculo de {} de radio es {}".format(radio, area)) # Imprime el resultado de la variable area
 print("El perimetro de un circulo de {} de radio es {}".format(radio, perimetro)) # Imprime el resultado de la variable perimetro
-print("---------------------------------------------------------------")
+print("--------------------------------------------------------------")
 
 lado = float(input("Ingresa el lado del cuadrado: ")) # Asigna el valor de la variable lado
 
