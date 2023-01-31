@@ -8,11 +8,12 @@
 
 radio = float(input("Ingresa el radio del circulo: ")) #Asigna el valor de la variable radio
 
-perimetro = (radio) * (2) * (3.1416) # 
+perimetro = (radio) * (2) * (3.1416) # Hace la operacion de la variable radio por pi y 2
 area = (3.1416) * (radio) ** (2) #Hace la operacion de la variable radio por pi
 
 print("El area de un criculo de {} de radio es {}".format(radio, area)) # Imprime el resultado de la variable area
-print("El perimetro de un circulo de {} de radio es {}".format(radio, perimetro))
+print("El perimetro de un circulo de {} de radio es {}".format(radio, perimetro)) #
+print("---------------------------------------------------------------")
 
 lado = float(input("Ingresa el lado del cuadrado: ")) #
 
