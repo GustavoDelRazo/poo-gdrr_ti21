@@ -17,7 +17,6 @@ elif n2 > n1:
 elif n2 == n1:
   print(None)
 """
-
 if n1 < n2:
   print(n2)
 elif n1 == n2:
