@@ -74,3 +74,16 @@ if n1 <= n2:
 else:
   print(n1)
 
+#Forma 9
+if 
+
+
+
+
+#Forma 10
+
+
+
+
+
+#Forma 11
