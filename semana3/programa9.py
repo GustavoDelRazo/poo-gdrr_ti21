@@ -6,21 +6,13 @@
 """
 
 
-n1 = int(input("Ingresa el primer valor: "))
-n2 = int(input("Ingresa el segundo valor: "))
+n1 = int(input("Ingresa el primer valor: ")) #Ingresa una variable  de nombre n1
+n2 = int(input("Ingresa el segundo valor: ")) #Ingresa una variable  de nombre n2
 
-"""
-if n1 > n2:
-  print("El numero mayor es: ",n1)
-elif n2 > n1:
-  print("El numero mayor es: ",n2)
-elif n2 == n1:
-  print(None)
-"""
-if n1 < n2:
-  print(n2)
-elif n1 == n2:
-  print(None)
-elif n2 < n1:
-  print(n1)
+if n1 < n2: #Hace una condicion para saber cual es el valor mas alto
+  print(n2) #Imprime el valor n2 por ser mas alto
+elif n1 == n2: #Hace una condicion de los valores para identificar si son iguales
+  print(None) #Imprime el valor none por ser iguales
+elif n2 < n1: #Hace una condicion para saber cual es el valor mas alto
+  print(n1) #Imprime el valor n1 por ser el mas alto
   

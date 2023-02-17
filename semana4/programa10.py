@@ -6,84 +6,70 @@
 """
 
 
-n1=int(input("Numero 1: "))
-n2=int(input("Numero 2: "))
+n1=int(input("Numero 1: ")) #Ingresa una variable  de nombre n1
+n2=int(input("Numero 2: ")) #Ingresa una variable  de nombre n2
 
 #Forma 1
-if n1 > n2:
-  print(n1)
-if n2 > n1:
-  print(n2)
-if n1 == n2:
-  print(None)
+if n1 > n2: #Hace una condicion para saber cual es el valor mas alto
+  print(n1) #Imprime el valor n1 por ser mas alto
+if n2 > n1: #Hace una condicion para saber cual es el valor mas alto
+  print(n2) #Imprime el valor n2 por ser mas alto
+if n1 == n2: #Hace una condicion de los valores para identificar si son iguales
+  print(None) #Imprime el valor None, cuando los valores son iguales
 
 #Forma 2
-if n2 > n1:
-  print(n2)
-if n1 > n2:
-  print(n1)
-else: 
-  print(None)
+if n2 > n1: #Hace una condicion para saber cual es el valor mas alto
+  print(n2) #Imprime el valor n2 por ser mas alto
+if n1 > n2: #Hace una condicion para saber cual es el valor mas alto
+  print(n1) #Imprime el valor n1 por ser mas alto
+else: #Hace referencia a lo que pasaría si ninguna de las condiciones se cumple
+  print(None) #Imprime el valor None, cuando los valores son iguales
 
 #Forma 3
-if n1 > n2:
-  print(n1)
-elif n2 > n1:
-  print(n2)
-else:
-  print(None)
+if n1 > n2: #Hace una condicion para saber cual es el valor mas alto
+  print(n1) #Imprime el valor n1 por ser mas alto
+elif n2 > n1: #Hace una condicion para saber cual es el valor mas alto
+  print(n2) #Imprime el valor n2 por ser mas alto
+else: #Hace referencia a lo que pasaría si ninguna de las condiciones se cumple
+  print(None) #Imprime el valor None, cuando los valores son iguales
 
 #Forma 4
-if n1 == n2:
-  print(None)
-elif n1 > n2:
-  print(n1)
-elif n2 > n1:
-  print(n2)
+if n1 == n2: #Hace una condicion de los valores para identificar si son iguales
+  print(None) #Imprime el valor None, cuando los valores son iguales
+elif n1 > n2: #Hace una condicion para saber cual es el valor mas alto
+  print(n1) #Imprime el valor n1 por ser mas alto
+elif n2 > n1: #Hace una condicion para saber cual es el valor mas alto
+  print(n2) #Imprime el valor n2 por ser mas alto
 
 #Forma 5
-if n1 < n2:
-  print(n2)
-if n2 < n1:
-  print(n1)
-if n1 == n2:
-  print(None)
+if n1 < n2: #Hace una condicion para saber cual es el valor mas alto
+  print(n2) #Imprime el valor n2 por ser mas alto
+if n2 < n1: #Hace una condicion para saber cual es el valor mas alto
+  print(n1) #Imprime el valor n1 por ser mas alto
+if n1 == n2: #Hace una condicion de los valores para identificar si son iguales
+  print(None) #Imprime el valor None, cuando los valores son iguales
 
 #Forma 6
-if n2 > n1:
-  print(n2)
-if n2 < n1:
-  print(n1)
-else:
-  print(None)
+if n2 > n1: #Hace una condicion para saber cual es el valor mas alto
+  print(n2) #Imprime el valor n2 por ser mas alto
+if n2 < n1: #Hace una condicion para saber cual es el valor mas alto
+  print(n1) #Imprime el valor n1 por ser mas alto
+else: #Hace referencia a lo que pasaría si ninguna de las condiciones se cumple
+  print(None) #Imprime el valor None, cuando los valores son iguales
 
 #Forma 7
-if (n2<n1>n2):
-  print(n1)
-elif (n1<n2>n1):
-  print(n2)
-else:
-  print(None)
+if (n2<n1>n2): #Hace una condicion para saber cual es el valor mas alto
+  print(n1) #Imprime el valor n1 por ser mas alto
+elif (n1<n2>n1): #Hace una condicion para saber cual es el valor mas alto
+  print(n2) #Imprime el valor n2 por ser mas alto
+else: #Hace referencia a lo que pasaría si ninguna de las condiciones se cumple
+  print(None) #Imprime el valor None, cuando los valores son iguales
 
 #Forma 8
-if n1 <= n2:
-  if n1 == n2:
-    print(None)
-  else:
-    print(n2)
-else:
-  print(n1)
-
-#Forma 9
-if 
-
-
-
-
-#Forma 10
-
-
-
-
-
-#Forma 11
+if n1 <= n2: #Hace una condicion para saber cual es el valor mas alto
+  if n1 == n2: #Hace una condicion de los valores para identificar si son iguales
+    print(None) #Imprime el valor None, cuando los valores son iguales
+  else: #Hace referencia a lo que pasaría si ninguna de las condiciones se cumple
+    print(n2) #Imprime el valor n2 por ser mas alto
+else: #Hace referencia a lo que pasaría si ninguna de las condiciones se cumple
+  print(n1) #Imprime el valor n1 por ser mas alto

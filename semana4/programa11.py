@@ -8,9 +8,9 @@
 
 def mayor(numero1, numero2):
   result = None
-  if numero1 > numero2:
+  if numero1 > numero2: #Hace una condicion para saber cual es el valor mas alto
     result = numero1
-  elif numero2 > numero1:
+  elif numero2 > numero1: #Hace una condicion para saber cual es el valor mas alto
     result = numero2
   return result 
 
