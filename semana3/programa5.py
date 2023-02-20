@@ -2,7 +2,7 @@
    Programa5
    Nombre: Gustavo DRR
    Fecha: 30/01/2023
-   Descripcion: Comentarios multilinea, comentarios de una linea,       variables int y print
+   Descripcion: Comentarios multilinea, comentarios de una linea, variables int y print
 """
 
 
