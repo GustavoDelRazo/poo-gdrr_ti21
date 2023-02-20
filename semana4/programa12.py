@@ -6,13 +6,13 @@
 """
 
 
-def mayor(numero1:int, numero2:int) -> int | None:
-  result = None
+def mayor(numero1:int, numero2:int) -> int | None: #Define una funcion
+  result = None #Le da el valor none a result
   if numero1 > numero2: #Hace una condicion para saber cual es el valor mas alto
-    result = numero1
+    result = numero1 #Si se cumple la codicion imprime el numero1
   elif numero2 > numero1: #Hace una condicion para saber cual es el valor mas alto
-    result = numero2
-  return result
+    result = numero2 #Si se cumple la codicion imprime el numero2
+  return result #Returna el valor de result
 
 
   print(mayor(2, 1)) #2
